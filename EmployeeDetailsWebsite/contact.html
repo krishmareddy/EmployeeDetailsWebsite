@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Details Page</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+    <body>
+        
+        <!-- The main container. -->
+        <div class="container">
+            
+            <!-- A menu bar. -->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand" href="#">Details Page</a>
+                    <ul class="nav">
+                        <li><a href="compDetails.html">Company Details</a></li>
+                        <li><a href="empDetails.html">Employee Details</a></li>
+                        <li class="active"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1>Contact Details</h1>
+            <p>Click on the "Show Contact Details" button to view Contact Details.</p>
+            
+            <hr />
+            
+            <!-- Button to trigger modal -->
+            <a href="#popup" role="button" class="btn" data-toggle="modal">Show Contact Details</a>
+ 
+            <!-- Modal -->
+            <div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="popupLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="popupLabel">Contact Details</h3>
+              </div>
+              <div class="modal-body">
+                <p>Contact Details:</p>
+                <p>Email: contactUs@details.com</p>
+                <p>Phone No.: 132445555</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">OK</button>
+              </div>
+            </div>
+
+        </div>
+        
+        <!-- Include jQuery and Boostrap. -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    </body>
+</html>

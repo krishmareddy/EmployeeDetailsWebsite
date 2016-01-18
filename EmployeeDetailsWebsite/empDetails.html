@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Details Page</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+    <body>
+        
+        <!-- The main container. -->
+        <div class="container">
+            
+            <!-- A menu bar. -->
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand" href="#">Details Page</a>
+                    <ul class="nav">
+                        <li><a href="compDetails.html">Company Details</a></li>
+                        <li class="active"><a href="empDetails.html">Employee Details</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1>Details</h1>
+            <p>Displaying Employee Details on Tabs</p>
+            <hr />
+            <!-- The tab headings. -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#emp1" data-toggle="tab">Employee 1</a></li>
+                <li><a href="#emp2" data-toggle="tab">Employee 2</a></li>
+                <li><a href="#emp3" data-toggle="tab">Employee 3</a></li>
+                <li><a href="#emp4" data-toggle="tab">Employee 4</a></li>
+            </ul>
+
+            <!-- The tab content. -->
+        <div id="my-tab-content" class="tab-content">
+
+            <div class="tab-pane active" id="emp1">
+                <p>NAME: Abc</p>
+                <p>ADDRESS: 6th St, Harrisburg, PA 12343</p>
+                <p>EMAIL: abc@details.com </p>
+                <p>PHONE NO.: 123456789</p>
+                <p>JOB TITLE: Developer I</p>
+                <p>NOTES: Develops web applications</p>
+            </div>
+
+            <div class="tab-pane" id="emp2">
+                <p>NAME: Xyz</p>
+                <p>ADDRESS: Chicago St, Bloomington, IL 23445</p>
+                <p>EMAIL: xyz@details.com</p>
+                <p>PHONE NO.: 234567890</p>
+                <p>JOB TITLE: Manager</p>
+                <p>NOTES: Development team manager</p>
+            </div>
+
+            <div class="tab-pane" id="emp3">
+                <p>NAME: Yyy</p>
+                <p>ADDRESS: Roosevelt Dr, Dallas, TX 34567</p>
+                <p>EMAIL: yyy@details.com</p>
+                <p>PHONE NO.: 345678901</p>
+                <p>JOB TITLE: Network Engineer</p>
+                <p>NOTES: Manages network related issues</p>
+            </div>
+
+            <div class="tab-pane" id="emp4">
+                <p>NAME: Zzz</p>
+                <p>ADDRESS: 8th St, Harrisburg, PA 13456</p>
+                <p>EMAIL: zzz@details.com</p>
+                <p>PHONE NO.: 456789012</p>
+                <p>JOB TITLE: Developer II</p>
+                <p>NOTES: Develops and deploys applications</p>
+            </div>
+        </div>
+            
+        <hr />
+</div>
+        
+        <!-- Included jQuery and Boostrap. -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+            </div>
+    </body>
+</html>
